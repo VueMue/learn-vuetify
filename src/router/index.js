@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 import InBox from "../views/InBox.vue"
+import TimeLine from "../views/TimeLine.vue"
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/inbox",
     name: "InBox",
     component: InBox,
+  },
+  {
+    path: "/timeline",
+    name: "TimeLine",
+    component: TimeLine,
   },
   {
     path: "/about",
