@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-system-bar app>
+    <!-- <v-system-bar app>
       <v-spacer></v-spacer>
 
       <v-icon>mdi-square</v-icon>
@@ -21,7 +21,7 @@
 
       <v-list>
         <v-list-item v-for="[icon, text] in links" :key="icon" link>
-          <v-list-item-icon>
+          <v-list-item-icon>  
             <v-icon>{{ icon }}</v-icon>
           </v-list-item-icon>
 
@@ -30,7 +30,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
 
     <v-main>
       <v-container class="py-8 px-6" fluid>
