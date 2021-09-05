@@ -100,6 +100,15 @@
                 </v-list-item>
               </router-link>
 
+              <router-link to="/calendars">
+                <v-list-item>
+                  <v-list-item-icon>
+                    <v-icon>mdi-calenders</v-icon>
+                  </v-list-item-icon>
+                  <v-list-item-title>Calenders</v-list-item-title>
+                </v-list-item>
+              </router-link>
+
               <v-list-item>
                 <v-list-item-icon>
                   <v-icon>mdi-account</v-icon>

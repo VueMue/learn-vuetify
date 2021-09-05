@@ -9,6 +9,13 @@
         </v-card-actions>
       </v-card>
       <v-alert type="success">This is a v-alert Test</v-alert>
+      <v-alert border="left" color="blue" icon="$mdiAccount" type="info"
+        >Test</v-alert
+      >
+      <v-alert border="left" color="indigo" dark>
+        I'm an alert with a border left type info
+      </v-alert>
+      <v-btn elevation="2" large loading x-large></v-btn>
       <v-data-table
         :headers="headers"
         :items="desserts"

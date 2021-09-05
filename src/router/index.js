@@ -3,6 +3,7 @@ import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
 import InBox from "../views/InBox.vue"
 import TimeLine from "../views/TimeLine.vue"
+import Calendars from "../views/Calendars.vue"
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: "/timeline",
     name: "TimeLine",
     component: TimeLine,
+  },
+  {
+    path: "/calendars",
+    name: "Calendars",
+    component: Calendars,
   },
   {
     path: "/about",
